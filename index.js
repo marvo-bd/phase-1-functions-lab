@@ -6,7 +6,6 @@ function distanceFromHqInBlocks(block) {
   }
 }
 
-// 264
 
 function distanceFromHqInFeet(block) {
     distanceFromHqInBlocks(block);
@@ -30,5 +29,3 @@ function calculatesFarePrice(start, destination) {
        return 'cannot travel that far'
     }
 }
-
-calculatesFarePrice(34, 24);
